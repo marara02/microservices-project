@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 
 @Entity
-@Table(name = "order")
+@Table(name = "order_req")
 @Getter
 @Setter
 @NoArgsConstructor

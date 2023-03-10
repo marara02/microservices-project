@@ -9,15 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="orderService" />
         <module name="productService" />
+        <module name="inventoryService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="inventoryService" target="17" />
       <module name="orderService" target="17" />
       <module name="productService" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="inventoryService" options="-parameters" />
       <module name="orderService" options="-parameters" />
       <module name="productService" options="-parameters" />
     </option>
